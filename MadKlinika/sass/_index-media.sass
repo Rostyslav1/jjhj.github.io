@@ -1,0 +1,293 @@
+@import "bourbon"
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px)
+	.content-two
+		.left
+			.img-2, .img-1, .img-3
+				margin-right: 17px
+		.button-yellow
+			margin: 28px auto 30px
+
+	.department
+		.department-item
+			padding: 10px 25px
+			margin-left: auto
+			margin-right: auto
+	.people-background
+		max-width: 683px
+		float: none
+		margin-left: auto
+		margin-right: auto
+	.background-gray
+		background-color: #fcfcfc
+		margin-bottom: 20px
+	.content-two .people
+		height: 450px
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	.content-two
+		.left
+			.img-2
+				margin-right: 0
+			text-align: center
+			.all-block
+				max-width: 682px
+				margin: 20px auto
+				.img-1, .img-3
+					margin-right: 13px
+				.img-1, .img-2, .img-3, .img-4
+					width: 320px
+					max-width: 320px
+	.department
+		.department-item
+			.dep-img
+				margin-right: 20px
+	// .caroseul-item.video-item
+	// 	height: 690px
+	.owl-carousel
+		.owl-nav
+			top: 235px
+		.owl-dots
+			top: 230px
+	.main-nav > li
+		z-index: 10
+	.toggle-nav:hover
+		left: -90px
+	// .caroseul-item.video-item
+	// 	height: 484px
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px)
+	.popup-cont	
+		width: 100%
+		padding: 0 10px
+		input, textarea
+			width: 100%
+			max-width: 517px
+		textarea
+			padding-top: 9px
+	.top-popup
+		margin: 0 10px
+
+	.content-two
+		.left
+			.all-block
+				margin: 20px auto
+				max-width: 682px
+				.img-2
+					margin-right: 0
+				.img-1, .img-3
+					margin-right: 9px
+			.button-yellow
+				margin: 14px auto 0
+
+	.department
+		.department-item
+			margin: 0 auto 15px
+			max-width: 345px
+
+	.owl-carousel
+		.owl-nav, .owl-dots
+			display: none
+
+	.caroseul-item .top-description
+		max-width: 450px
+		margin-right: auto
+		margin-left: auto
+
+	.content-two
+		.description-pain
+			.description-item
+				position: absolute
+				right: 0
+				left: 0
+				top: 0
+				margin: 0 auto
+
+	.content-two h2
+		padding-bottom: 275px
+		text-align: center
+	.content-two
+		.description-pain .description-item
+			top: 25px
+		.left-cont
+			margin: 55px auto 0
+
+	.content-two .for-bg
+		padding-bottom: 1px
+		h2
+			padding-bottom: 0
+
+	.content-two
+		.description-item
+			.left-cont:before
+				display: none
+	.caroseul-item.video-item
+		height: 500px
+
+	// .caroseul-item.video-item
+	// 	height: 470px
+	// .caroseul-item .myvideo
+	// 	height: 74%
+	// 	margin-top: 166px
+	.content-two .people
+		height: 410px
+
+@media only screen and (max-width : 682px)
+	.content-two
+		.row
+			.all-block
+				.img-3
+					padding-bottom: 34px
+				// .img-1, .img-3
+				// 	margin-right: 0
+
+
+@media only screen and (max-width : 640px)
+	.department .department-item
+		min-height: 200px
+		.dep-img
+			display: block
+			min-height: 50px
+	// .caroseul-item
+	// 	.myvideo
+	// 		max-height: 540px
+
+
+@media only screen and (max-width : 575px)
+	.caroseul-item #video_bg
+		top: 230px
+		height: 50%
+	.caroseul-item
+		padding: 30px 0
+	.video-block
+		margin-top: 194px
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	.popup-cont	
+		.button-yellow
+			width: 100%
+			max-width: 323px
+		h2
+			font-size: 20px
+		.my-popup
+			top: 2px
+			right: 5px
+	.top-popup
+		margin: 0 10px
+
+
+	.content-two
+		.row
+			.for-bg
+				h2
+					font-size: 22px
+					padding-bottom: 0
+			.right
+				h2
+					text-align: center
+					margin-left: 0
+					font-size: 23px
+		.left 
+			.all-block
+				max-width: 440px
+				.img-1, .img-3
+					margin-right: 0
+				.img-1, .img-2, .img-3,
+					padding-bottom: 25px
+					text-align: left
+				.img-4
+					text-align: left
+				.img-1, .img-2, .img-3, .img-4
+					width: 255px
+					max-width: 255px
+	.department
+		padding: 20px 0 0px
+		.department-item
+			margin: 0 auto 15px
+			max-width: 264px
+			padding: 10px 15px
+	
+	.content-two
+		.right 
+			.man-cont-one
+				display: block
+				margin: 0 auto
+				width: 222px
+				margin-bottom: 25px
+				.left-cont
+					margin-top: 34px
+
+	.caroseul-item
+		padding-bottom: 55px
+		height: 700px
+		.top-description
+			margin: 275px -15px 0 -15px
+			max-width: none
+			h2
+				font-size: 24px
+				letter-spacing: -1px
+			a
+				margin-right: 10px
+	.footer-arr
+		display: none
+	.dep-img
+		max-width: 38px
+
+	.department
+		.col-lg-3
+			width: 100%
+		.department-item
+			min-height: 0
+			.dep-img
+				display: inline-block
+				min-height: 0
+	// .caroseul-item.video-item
+	// 	height: 438px
+	// 	.myvideo
+	// 		margin-top: 190px
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 575px)
+	/**/
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+ /**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	.caroseul-item
+		#video_bg
+			height: 130%
+	
